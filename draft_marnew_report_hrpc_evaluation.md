@@ -134,13 +134,29 @@ Upon consideration of the draft report, no implications for internationalization
 
 In the below text, Security ([RFC8280], sec. 6.2.4), Integrity ([RFC8280], sec. 6.2.16) and Authenticity ([RFC8280], sec. 6.2.17) are further considered to have been addressed, or as in progress of being addressed by the specific endeavours pointed out in the report. As such, this assessment hopes to serve as a complement to remaining Human Rights Considerations Guidelines which were not addressed by the MaRNEW draft.
 
-## Connectivity (([RFC8280], sec. 6.2.1)
+## Connectivity ([RFC8280], sec. 6.2.1)
 
 It is a priori obvious that a discussion with mobile network operators would touch upon connectivity. As a general comment, the HRPC RG is not concerned that encrypted internet traffic could create topological problems in network deployment with respect to density of base stations. It is more sensible to imagine that the density of base stations is kept low by deployers to save money on infrastructure roll-out.
 
+In the MarNEW draft report, middleboxes are brought up frequently as an example of infrastructure rendered less useful by the ubiquitous adoption of encryption. Middleboxes may enhance access to content for individuals, and may also interfere with their ability to enjoy content free of surveillance, censorship or content manipulation. The focus of the workshop of exploring ways in which encrypted materials can benefit from the same speed of deliverance as un-encrypted materials is therefore welcome.
 
+## Content Agnosticism
 
-In the MarNEW draft report, middleboxes are brought up frequently as an example of infrastructure rendered less useful by the ubiquitous adoption of encryption. 
+Traffic prioritisation, whether based on technical or commercial grounds, risks interfering with an individual's right to freedom of expression or opinion, by restricting access or enjoy content of their own choosing. As such, prioritisation should be made explicit and obvious, and subject to consent from the individual, whether the motivations for deployment are commercial or technical.
+
+It is clear that internet filtering and blocking of content of specific types, whether motivated by network management or regulatory concerns, does not fulfill a content agnosticism criterion. It is the observation of HRPC that [RFC7725] (An HTTP Status Code to Report Legal Obstacles) may assist communication of specific filtering and blocking operations in action.
+
+It the the impetus of the Human Rights Guidelines in RFC8280 that content agnosticism be respected by protocols developed in the IETF, and in general an accepted view in the global human rights community that content agnosticism is desirable at all levels of technical infrastructure (DO WE HAVE A UN REFERENCE FOR THIS?!). As such, the HRPC RG is concerned about ideas that traffic be classified through additional headers or metadata, identifying traffic via 5-tuples, trust models and frameworks, or heuristics.
+
+## Censorship Resistance
+
+## Open Standards
+
+## Decentralization
+
+## Adaptability
+
+## Outcome Transparency
 
 Security Considerations
 ========================
